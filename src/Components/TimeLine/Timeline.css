@@ -1,0 +1,37 @@
+.timeline {
+  display: flex; 
+  flex-direction: column;
+  width: fit-content;
+  border-top: 6vh solid lightgray; 
+  border-bottom: 2vh solid lightgray; 
+}
+
+.timeline-eventlanes {
+  display: flex; 
+  flex-direction: column;
+  width: fit-content; 
+  height: 85.5vh; 
+}
+
+.timeline-dates {
+  display: flex; 
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.timeline-date {
+  flex: 0 0 400px;
+  padding-top: 10px; 
+  text-align: center;
+  width: fit-content; 
+  border-top: 1px solid lightgray; 
+  border-left: 1px solid grey;
+}
+
+.timeline-addEvent-button{
+  padding: 10px; 
+  position: fixed;
+  top: 0;
+  left: 0;  
+  width: 10rem; 
+}

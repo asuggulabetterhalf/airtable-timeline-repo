@@ -1,0 +1,33 @@
+.timeline-event {
+  height: 12vh; 
+  border-radius: 10px;
+  text-align: left;
+  position: absolute; 
+  vertical-align: middle;
+  line-height: 12vh;
+  overflow: hidden; 
+  color: white;
+  transition: 0.6s; 
+  font-weight: 700;
+  font-size: 20px; 
+}
+
+.event-text {
+  margin-left: 1vh; 
+}
+
+.close-icon {
+  position: absolute; 
+  top: -30px; 
+  right: 5px; 
+}
+
+.edit-icon {
+  position: absolute; 
+  top: -30px; 
+  right: 30px; 
+}
+
+.timeline-event:hover {
+  transform: scale(1.05);
+}
