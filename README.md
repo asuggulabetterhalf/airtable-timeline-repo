@@ -44,7 +44,7 @@ I spent about 6-7 hours (3 hours on the basic functionality and the remainder on
 I think I did a decent job of planning the project out so that I was able to complete the basic + additional features without spending significantly more time. I think the styling is pretty decent and somewhat faithful to Airtable's own styling cues and the CRUD functionality works well. 
 
 ### What would you change if you were going to do it again? 
-I would probably add some sort of local storage based persistence to the application so that state perists beyond the browser session. I thought Redux or Context for this project were probably overkill, but in order to set the foundations for scaling the application further I would probably add that state management functionality as well. This exercise was very much a function of trying to execute quickly while keeping in focus what the core functionality needs to be. 
+I would probably add some sort of local storage based persistence to the application so that state perists beyond the browser session. I thought Redux or Context for this project were probably overkill, but in order to set the foundations for scaling the application further I would probably add that state management functionality as well. This exercise was very much a function of trying to execute quickly while keeping in focus what the core functionality needs to be. I'd also probably spend more time making sure the design is responsive to different devices and how I expect the application to be used in production (probably would only take up ~50% of the viewport at best).
 
 ### How did you make your design decisions? If you looked at other timelines for inspiration, please note that.
 I looked at Airtable's own timeline for inspiration 😄. 
