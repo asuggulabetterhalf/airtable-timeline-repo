@@ -93,8 +93,6 @@ function TimeLine(props) {
   * addEvent - updates state and adds a new event 
   * @param {Object} newEvent: Details of the event that is going to be added.
   */
-  
-  //Counter for incrementing ID value
 
   const addEvent = (newEvent) => {
     //Make a copy and push the newEvent to the new set of events

@@ -9,6 +9,8 @@ function EventLane(props) {
 
 /** 
  * calculateWidth - calculate the width of the event block based on start and end dates for the block 
+ * @param {String} eventStart: Starting date of the event.
+ * @param {String} eventEnd: Ending date of the event. 
  */  
 const calculateWidth = (eventStart, eventEnd) => {
   //Number of days the event is worth
@@ -22,6 +24,8 @@ const calculateWidth = (eventStart, eventEnd) => {
 
 /** 
  * calculateLeftMargin - calculate the left margin of the event block based on the difference between timelineStart and startDate 
+ * @param {String} timeStart: Starting date of the earliest event on the timeline.
+ * @param {String} eventStart: Starting date of the event.
  */  
 const calculateLeftMargin = (timeStart, eventStart) => {
   const timelineStart = moment(timeStart); 

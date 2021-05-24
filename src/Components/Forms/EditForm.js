@@ -6,6 +6,11 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
+/**
+ * Dialog for modifying an existing event - only triggers when user presses the "edit" button on the top right corner of an event.
+ * Pre-populates with the existing information on the event.  
+ */
+
 const useStyles = makeStyles((theme) => ({
   paper: {
     marginTop: theme.spacing(8),
