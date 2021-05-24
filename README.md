@@ -37,19 +37,19 @@ serve -s build
 
 ## Questions & Answers
 
-#### How long did you spend on the assignment? 
+### How long did you spend on the assignment? 
 I spent about 6-7 hours (3 hours on the basic functionality and the remainder on the CRUD features + styling). 
 
-#### What do you like about your implementation? 
+### What do you like about your implementation? 
 I think I did a decent job of planning the project out so that I was able to complete the basic + additional features without spending significantly more time. I think the styling is pretty decent and somewhat faithful to Airtable's own styling cues and the CRUD functionality works well. 
 
-#### What would you change if you were going to do it again? 
+### What would you change if you were going to do it again? 
 I would probably add some sort of local storage based persistence to the application so that state perists beyond the browser session. I thought Redux or Context for this project were probably overkill, but in order to set the foundations for scaling the application further I would probably add that state management functionality as well. This exercise was very much a function of trying to execute quickly while keeping in focus what the core functionality needs to be. 
 
-#### How did you make your design decisions? If you looked at other timelines for inspiration, please note that.
+### How did you make your design decisions? If you looked at other timelines for inspiration, please note that.
 I looked at Airtable's own timeline for inspiration 😄. 
 
-#### How would you test this if you had more time?
+### How would you test this if you had more time?
 I would've probably written a bunch of unit tests to make sure that all of the date formatting, parsing and calculations were correct. Could've probably written this in Typescript to make sure return types are what we expect (again laying the foundations for further scale). Maybe some integration tests to make sure the end-to-end application works as expected and pair that with some automated testing so that tests are run with every merge. 
 
 
