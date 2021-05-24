@@ -19,7 +19,7 @@ const calculateWidth = (eventStart, eventEnd) => {
   const days = end.diff(start, 'days'); 
   const weeks = (days / 7.0); 
 
-  return weeks === 0 ? props.pixelSize : props.pixelSize * weeks; 
+  return weeks === 0 ? (props.pixelSize / 7.0) : props.pixelSize * weeks; 
 }
 
 /** 
